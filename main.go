@@ -3,9 +3,9 @@ package main
 import "collection"
 
 users := []type User struct {
-	username string
-	password string
-}{}
+	       username string
+	       password string
+           }{}
 
 func login(i []js.Value) {
 	username := js.Global().Get("document").Call("getElementById", i[0].String()).Get("value").String()

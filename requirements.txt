@@ -1,0 +1,4 @@
+Golang >= 1.11
+github.com/mitchellh/mapstructure
+github.com/chenhg5/collection
+github.com/shopspring/decimal
